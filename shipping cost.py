@@ -6,7 +6,7 @@ ship3 = 1.49
 ship4 = 0.99
 
 if num_of_items == 1:
-    print(f"Your ship charges are ${ship1}")
+    print(f"Your ship charges are ${ship1}") 
 elif 2 <= num_of_items <= 5:
     result_ship = ship1 + (num_of_items - 1) * ship2
     print(f"Your ship charges are ${result_ship}")
